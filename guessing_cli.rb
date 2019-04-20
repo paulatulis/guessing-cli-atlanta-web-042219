@@ -9,6 +9,5 @@ def run_guessing_game
     return "The computer guessed #{magic_number}"
   else answer == "exit" 
     return "Goodbye!"
-    break
 end 
 end 
