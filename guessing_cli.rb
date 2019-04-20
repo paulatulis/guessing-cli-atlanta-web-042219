@@ -5,7 +5,7 @@ def run_guessing_game
     magic_number = rand(1..6)
     answer = gets.chomp.to_s
     if answer == "exit"
-      puts "Goodbye"
+      puts "Goodbye!"
       break
       elsif answer == magic_number 
       puts "You guessed the correct number!"
