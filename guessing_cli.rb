@@ -2,7 +2,7 @@
 def run_guessing_game
   loop do
   puts "Guess a number between 1 and 6."
-    magic_number = rand(1..6)
+    magic_number = rand(1..6).to_s
     answer = gets.chomp.to_s
     if answer == "exit"
       puts "Goodbye!"
