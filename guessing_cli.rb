@@ -4,10 +4,10 @@ def run_guessing_game
     magic_number = rand(1..6)
     answer = gets.chomp
     if answer == magic_number 
-      return "You guessed the correct number!"
+      puts "You guessed the correct number!"
     elsif answer != magic_number && answer !="exit"
-    return "The computer guessed #{magic_number}"
+    puts "The computer guessed #{magic_number}"
   else answer == "exit" 
-    return "Goodbye!"
+    puts "Goodbye!"
 end 
 end 
