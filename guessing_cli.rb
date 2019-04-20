@@ -7,7 +7,7 @@ def run_guessing_game
     if answer == "exit"
       puts "Goodbye!"
       break
-      elsif answer == magic_number 
+      elsif answer == magic_number.to_i 
       puts "You guessed the correct number!/"
     elsif answer != magic_number && answer !="exit"
     puts "The computer guessed #{magic_number}."
